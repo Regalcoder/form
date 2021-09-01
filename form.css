@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#auth_layout{
+    background-color: white;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    }
+
+.form_container{
+    width: 60%;
+    height: 100vh;
+    }
+
+    #logo{
+        display: flex;
+        justify-content: flex-end;
+    }
+#sign-up{
+    color: blue;
+    padding: 20px;
+}
+.form-styling{
+    padding: 20px;
+}
+.form-row{
+    display: flex;
+    justify-content: space-between;
+}
+.form-row .input-box{
+    width: 48%;
+}
+.form-row .input-box input[type="text"]{
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    margin: 10px 0;
+}
+.form-row .input-box input[type="email"]{
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    margin: 10px 0;
+}
+.radio-style{
+    width: 48%;
+    height: 40px;
+    padding: 0 10px;
+    margin: 10px 0;
+} 
+
+.form-row .input-box input[type="password"]{
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    margin: 10px 0;
+}
+.form-row .input-box select{
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    margin: 10px 0;
+}
+.form-row .text-area-section{
+    width: 100%;
+    }
+
+.form-row .text-area-section textarea{
+width: 100%;
+}
+.button-section{
+    display: flex;
+    justify-content: flex-end;
+}
+.button-section #button{
+    background: blue;
+    padding: 8px 40px;
+    border: none;
+    color: white;
+    border-radius: 10px 0 10px 0;
+}
+
+#header{
+    text-align: center;
+    padding: 100px;
+}
+
+.image_container{
+width: 40%;
+height: 100vh;
+}
